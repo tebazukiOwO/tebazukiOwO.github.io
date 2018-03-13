@@ -1,0 +1,48 @@
+body {
+    background: url(img/bg-1.jpg)
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    background: #ffe4c4
+    padding= 5px 3px
+}
+
+.container{
+    width:800px;
+    margin:0 auto;
+    padding:5px 20px;
+    background-color: white;
+    border:3px #ffe4c4 dotted
+}
+#header {
+    background-color: #ffe4c4;
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+
+#nav {
+    line-height: 30px;
+    height: 300px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+#section {
+    width: 350px;
+    float: left;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #ffe4c4;
+    color: black;
+    clear: both;
+    text-align: left;
+    padding: 5px;
+}
