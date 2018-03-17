@@ -1,27 +1,38 @@
 body {
-    background: url(img/bg-1.jpg)
+    background: url(img/20180315124405.png)
 }
 
-h1{
+h1 {
     text-align: center;
+    font-family:"黑体";
 }
 
-h3{
-    background: #ffe4c4
-    padding= 5px 3px
+h3 {
+    background-color: #fedfe1 ;
+    font-family: "黑体";
+    font-weight: bold;
+    padding:10px 5px
 }
 
-.container{
-    width:800px;
-    margin:0 auto;
-    padding:5px 20px;
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 5px 20px;
     background-color: white;
-    border:3px #ffe4c4 dotted
+    border: 3px #fedfe1 dotted
 }
+
+.form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: white;
+    border: 3px #fedfe1 dotted
+}
+
 #header {
-    background-color: #ffe4c4;
     color: black;
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
 
@@ -40,9 +51,8 @@ h3{
 }
 
 #footer {
-    background-color: #ffe4c4;
     color: black;
     clear: both;
-    text-align: left;
+    text-align: center;
     padding: 5px;
 }
